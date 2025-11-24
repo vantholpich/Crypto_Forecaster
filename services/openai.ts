@@ -14,7 +14,7 @@ export const analyzeChart = async (base64Image: string) => {
 
   try {
     const response = await openai.chat.completions.create({
-      model: "gpt-4o",
+      model: "gpt-5",
       messages: [
         {
           role: "user",
