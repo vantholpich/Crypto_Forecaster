@@ -1,7 +1,7 @@
-import { analyzeChart } from '@/services/openai';
 import * as ImagePicker from 'expo-image-picker';
 import { useState } from 'react';
 import { ActivityIndicator, Alert, Button, Image, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { analyzeChart } from '../../services/gemini';
 
 export default function HomeScreen() {
   const [image, setImage] = useState<string | null>(null);
