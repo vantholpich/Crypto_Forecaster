@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "crypto-forecaster",
+    "name": "CryptoFore",
     "slug": "crypto-forecaster",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cryptofore.cryptofore",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -43,6 +47,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4dcc0cfb-24df-4368-9d9c-eaa58281e305"
+      }
+    },
+    "owner": "vanthol"
   }
 }
