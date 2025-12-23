@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CoinPredict",
-    "slug": "crypto-forecaster",
+    "name": "CryptoBall",
+    "slug": "CryptoBall",
     "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -51,9 +51,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "4dcc0cfb-24df-4368-9d9c-eaa58281e305"
+        "projectId": "8827e7d0-5d15-4808-8622-8f9b9fe7c4d1"
       }
     },
-    "owner": "vanthol"
+    "owner": "vanthol2"
   }
 }
