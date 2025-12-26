@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CryptoBall",
-    "slug": "CryptoBall",
+    "slug": "cryptoball",
     "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
